@@ -5,7 +5,7 @@ This program creates a logistic regression model to predict a team's probability
 To run this program, you will need to install the sports-reference and the sklearn packages. Installing these packages will also install any other packages necessary.
 
 # Steps
-You will need to train the model first in order to do any other actions. After training, you can choose to either test the model, predict a game's result, or produce rankings.
+You will need to train the model first in order to do any other actions or you can use the provided model that has been trained using data from 1995-2019. After training, you can choose to either test the model, predict a game's result, or produce rankings.
 
 # Training
 Run the program and enter "train" when prompted. Next, specify the range of NFL seasons that will be used as training data. A logistic regression model will be generated based off a variety of stats pulled from the Sports Reference API. This may take a few minutes, or maybe even longer depending on the range of seasons used. Once this is done, you are ready to move on to either testing, predicting, or ranking.
